@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+
+<body>
+    <!-- cabeçalho-->
+    <header>
+        <!--menu-->
+        <menu>
+            <!--Tag para menu de navegação-->
+            <nav>
+                <ul>
+                    <li><a href="https://www.tripadvisor.com.br/" target="_blank">Faça sua reserva</a></li>
+                    <li><a
+                            href="https://www.tripadvisor.com.br/Attraction_Review-g303461-d2327879-Reviews-Muro_Alto_Beach-Porto_de_Galinhas_Ipojuca_State_of_Pernambuco.html"></a>Redes
+                        Sociais</li>
+                    <li><a
+                            href="https://www.tripadvisor.com.br/Attraction_Review-g303461-d2327861-Reviews-Porto_de_Galinhas-Porto_de_Galinhas_Ipojuca_State_of_Pernambuco.html">Saiba
+                            mais</a></li>
+
+                </ul>
+            </nav>
+        </menu>
+    </header>
+
+    <!--Conteúdo-->
+    <main>
+        <section>
+            <h1>
+                Praias de pernambuco
+
+            </h1>
+            <iframe width="650" height="315" src="https://www.youtube.com/embed/OLR7_x0pFEw?si=Kr40cWgIvS6INy97"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <!--Seção de tipos de viagens-->
+        <section>
+
+        </section>
+        <!--A tag div deve ser usada somente para divisões, pois não tem valor semântico-->
+        <div>
+            <h2>Viagens Internacionais</h2>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque commodi reprehenderit, fugit dolorem
+                blanditiis rem, maxime quis praesentium voluptas nisi vitae reiciendis? Autem tenetur a totam quia,
+                maxime architecto recusandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod deserunt nulla architecto aperiam
+                sed, ullam esse sequi reiciendis laboriosam recusandae aspernatur illum inventore, quo dignissimos
+                provident temporibus vero eveniet!</p>
+        </div>
+        <div>
+            <h2>
+                Viagens Nacionais
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quibusdam fugiat itaque nisi,
+                consectetur beatae, reiciendis similique dolorum ullam delectus eligendi, quo quisquam. Nam quas eius
+                laboriosam ratione. Ad, assumenda.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sunt non nulla ipsam fugit ex odio id
+                placeat veniam atque consequatur quas eum, quaerat, quis esse itaque assumenda ratione facilis!
+            </p>
+        </div>
+        <!--Seção formulário-->
+        <section>
+            <h2>Se inscreva para receber novidades</h2>
+            <!--fieldset é usada para agrupar um formulário-->
+            <fieldset>
+                <legend>
+                    Formulário de cadastro
+                    <form action="form1.php"> <!-- >action< caminho para onde sera enviado o formulário-->
+                        <label for="nome">Nome:</label> <!--a >lable< é a etiqueta da informação >o for< atrela o >id< do objeto-->
+                        <input type="text" id="nome" placeholder="Digite seu nome aqui" required> <!-- o >input< abre o terminal para o usuário -->
+                        <label for="e-mail">E-mail</label>
+                        <input type="e-mail" id="e-mail" placeholder="Digite seu e-mail" required>
+                        <input type="submit" value="Enviar"><!--botão para enviar-->
+                    </form>
+                </legend>
+            </fieldset>
+        </section>
+
+        <section>
+
+        </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
